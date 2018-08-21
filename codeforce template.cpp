@@ -58,6 +58,15 @@ inline bool ispoweroftwo(ll x){return (x && !(x&(x-1)));}
 
 int main()
 {
+	
+	ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+#ifdef LOCAL_DEFINE
+    fropen("input.txt","rt",stdin);
+#endif
+
+
 
 
 
